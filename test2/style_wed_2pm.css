@@ -1,0 +1,295 @@
+Drive
+.
+Priority
+My Drive
+Shared drives
+Shared with me
+Recent
+Starred
+Trash
+Storage
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: left;
+}
+
+html {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+
+code,
+pre {
+  font-family: monospace;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+}
+
+body {
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
+
+
+
+/*///from here////*/
+*{
+	
+}
+
+html{
+	margin: 0;
+	padding: 0;
+	font-family: Noto Serif KR, serif;
+	font-size: 16px;
+	font;color: white;
+	background: grey;
+}
+
+.zoom0{
+	margin: 0;
+	padding: 0;
+	background: #F4F1ED;
+	font;color: black;
+}
+
+#zoom::selection {
+		color: white;
+		background-color: green;
+}
+
+#Jamie::selection {
+		color: white;
+		background-color: red;
+}
+
+#Jamie2::selection{
+	color: white;
+		background-color: blue;
+}
+
+body{
+	margin: 20px;
+	padding: 0;
+}
+
+
+#apple{
+	position: absolute;
+	top: 1000px;
+}
+
+img{
+	width: auto;
+	height: 300px;
+}
+
+
+
+.zoomcapture{
+	float: left;
+	margin-right: 10px;
+}
+
+.capture1{
+	float: left;
+	margin-right: 10px;
+}
+
+.capture2{
+	float: left;
+	margin-right: 10px;
+}
+	.a{
+		font-size: 50px;
+		color: white;
+		text-align: center;
+		width: 100vw;
+		padding-top: 5px;
+	}
+
+	.b{
+		position: absolute;
+		left: 10px;
+		vertical-align: top;
+		padding-top: 10px;
+	}
+	.c{
+		position: absolute;
+		right: 10px;
+		vertical-align: top;
+		padding-top: 10px;
+	}
+
+	.d{
+		display: block;
+	}
+
+
+
+	.cargotitle{
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.cargo{
+		font-size: 30px;
+		font-family: sans-serif;
+		color: red;
+		text-align: center;
+	}
+
+
+/*제목 부분에 네 가지 카테고리 글씨를 전체 화면 사이즈에 맞게 저절로 정렬되도록 하는 법을 배웠다*/
+.zoomtitle{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*span은 마진이나 패딩이 있을 수 없는 애라서 블록처럼 쌓을 수 있는 기능을 추가해줬다*/
+.zoomtitle span{
+	display: block;
+}
+
+
+.title{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.title span{
+	display: block;
+}
+
+
+.title2{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.title2 span{
+	display: block;
+}
+
+
+.title3{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.title3 span{
+	display: block;
+}
+
+
+.title4{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.title4 span{
+	display: block;
+}
+
+
+/*카고 사이트에서 온 뉴스레터 내용 가운데로 정렬하는거 인터넷에서 찾아서 알게 되었다.*/
+.margin-center { 
+		margin-left:auto;
+		margin-right:auto;
+	}
